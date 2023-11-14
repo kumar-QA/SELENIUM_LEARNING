@@ -27,7 +27,6 @@ public class AboutWindow {
 	   Iterator<String>	id= Windowids.iterator();
 		parentid=id.next();
 		childid=id.next();
-//		
 		driver.switchTo().window(childid);
 		
 		driver.findElement(By.id("firstName")).sendKeys("kumar");
